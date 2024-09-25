@@ -1,0 +1,53 @@
+*{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body{
+background-image: linear-gradient(#D4D2D2, white);
+background-repeat: no-repeat;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    background-color: #D8D4E6;
+    height: 100px;
+}
+.left{
+    background-color: #D1e0ee;
+    height: 450px;
+    width: 20%;
+    float: left;  
+}
+.left a:hover{
+    color: pink;
+    background-color: rgb(105, 105, 227);
+}
+.left a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+.main{
+    background-color: #C9F8CC;
+    height: 450px;
+    width: 60%;
+    float: left;
+    border: #000 1px solid;
+    box-sizing: border-box;
+   
+}
+.footer{
+    background-color: #D8D4E6;
+    height: 80px;
+    clear: both;
+}
+.right{
+    background-color: #D2f5af;
+    height: 450px;
+    width: 20%;
+    float: left;
+}
